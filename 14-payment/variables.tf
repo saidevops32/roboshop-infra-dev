@@ -23,5 +23,5 @@ variable "zone_name" {
   default = "saidev.online"
 }
 variable "iam_instance_profile" {
-  default = "Shell"
+  default = "shell"
 }
