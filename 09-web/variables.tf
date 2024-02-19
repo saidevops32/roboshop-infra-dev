@@ -6,6 +6,12 @@ variable "common_tags" {
   }
 }
 
+variable "tags" {
+  default = {
+    Component = "web"
+  }
+}
+
 variable "project_name" {
   default = "roboshop"
 }

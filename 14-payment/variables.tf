@@ -6,6 +6,12 @@ variable "common_tags" {
   }
 }
 
+variable "tags" {
+  default = {
+    Component = "payment"
+  }
+}
+
 variable "project_name" {
   default = "roboshop"
 }
@@ -15,4 +21,7 @@ variable "environment" {
 
 variable "zone_name" {
   default = "saidev.online"
+}
+variable "iam_instance_profile" {
+  default = "Shell"
 }
