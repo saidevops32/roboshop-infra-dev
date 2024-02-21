@@ -7,7 +7,7 @@ terraform {
   }
     backend "s3" {
     bucket = "sai-state-dev"
-    key    = "databases"
+    key    = "database"
     region = "us-east-1"
     dynamodb_table = "sai-locking-dev"
   }
